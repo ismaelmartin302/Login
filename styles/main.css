@@ -1,0 +1,61 @@
+:root {
+  color-scheme: light dark;
+  font-family: Verdana, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --background: #000000;
+  --text: #ffffff;
+  --border: #ffffff50;
+  --highlight: #09f;
+  --error: #e95050;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: var(--background);
+}
+body form {
+  display: flex;
+  flex-flow: column;
+  gap: 1em;
+  max-width: 25em;
+  padding: 1em;
+  margin: 5em;
+  border: 1px solid var(--border);
+  border-radius: 0.2em;
+}
+body form h1 {
+  margin: 0;
+}
+body form section {
+  display: flex;
+  flex-flow: column;
+  gap: 0.5em;
+}
+body form section input {
+  padding: 0.8em;
+  border: 1px solid var(--border);
+  border-radius: 0.2em;
+  background-color: var(--background);
+}
+body form section p {
+  display: none;
+  justify-content: center;
+  gap: 0.5em;
+  max-width: 25em;
+  margin: 0;
+  font-size: 0.8em;
+  color: var(--error);
+}
+body form section p i {
+  font-size: 1.5em;
+}
+body form section .error {
+  display: flex;
+}
+body form button {
+  padding: 0.8em;
+  border: 0;
+  border-radius: 0.2em;
+  background-color: var(--highlight);
+}/*# sourceMappingURL=main.css.map */
