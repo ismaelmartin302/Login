@@ -11,8 +11,16 @@
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  gap: 1em;
   margin: 0;
   background-color: var(--background);
+}
+body img {
+  margin: 1em;
+  width: 10em;
+  height: 10em;
 }
 body form {
   display: flex;
@@ -20,7 +28,6 @@ body form {
   gap: 1em;
   max-width: 25em;
   padding: 1em;
-  margin: 5em;
   border: 1px solid var(--border);
   border-radius: 0.2em;
 }
@@ -40,7 +47,6 @@ body form section input {
 }
 body form section p {
   display: none;
-  justify-content: center;
   gap: 0.5em;
   max-width: 25em;
   margin: 0;
@@ -58,4 +64,9 @@ body form button {
   border: 0;
   border-radius: 0.2em;
   background-color: var(--highlight);
+  cursor: pointer;
+}
+body form button:hover {
+  background-color: #ff0000;
+  transition: 1s;
 }/*# sourceMappingURL=main.css.map */
